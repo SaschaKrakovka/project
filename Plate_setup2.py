@@ -15,8 +15,22 @@ def createFrame(Data):
     global A1
     if hasattr(Data, "__len__"):
         A1,A2 = Data.iloc[0:2,0]
-    return A1,A2
+    return A1,A2 
     
 
 #  Created by Sascha Krakovka on --30032020.
 #  
+class Strain:
+
+    """
+    A class for defining strains and concentrations. One of them at a time.
+    """
+    
+    def __init__(self, strain):
+        """
+        Set the strain or concentration as strain
+        """
+        
+        self.strain = strain
+        
+    def

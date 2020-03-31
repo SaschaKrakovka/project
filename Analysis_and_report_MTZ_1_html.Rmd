@@ -59,7 +59,6 @@ I chose to give every concentration a DMSO control with the same amount DMSO.
 #Read your file in
 df <- read_csv2("EC50MTZ_12_9_19_1.csv")
 #kable(df)
-
 ```
 
 
