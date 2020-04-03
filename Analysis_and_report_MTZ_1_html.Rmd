@@ -329,7 +329,7 @@ eqC6aI <- paste0("y = ", fC6aI[1],
 
 eC6aI <- round(solve(fC6aI[2], log(50)-fC6aI[1]) ,2)
 
-EC50C6aI <- paste0("EC50[?M] = ", eC6aI[1])
+EC50C6aI <- paste0("EC50[µM] = ", eC6aI[1])
 
 ggplot(MTZ_1) + 
     ylab("Procent survival MTZ C6aI") + 
